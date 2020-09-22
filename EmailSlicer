@@ -1,0 +1,7 @@
+def eslicer():
+  uname=input("enter name of user")
+  print(uname.partition('@'))
+  uname,mid,domain=(uname.partition('@'))
+  domain1=domain.split('.')[0]
+  print("username is : ",uname,"\n domain is :",domain1)
+eslicer()
